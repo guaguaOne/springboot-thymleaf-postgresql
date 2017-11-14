@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    <p th:each = "s :${s}">
+        <b th:text="${s.name}">111</b>
+        <b th:text="${s.age}">111</b>
+        <b th:text="${s.number}">111</b>
+    </p>
+    <p th:each = "sc :${sc}">
+        <b th:text="${sc.classroom}">111</b>
+        <b th:text="${sc.descript}">111</b>
+        <b th:text="${sc.number}">111</b>
+    </p>
+</body>
+</html>

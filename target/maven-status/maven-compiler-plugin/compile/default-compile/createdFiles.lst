@@ -1,0 +1,6 @@
+com\chengnian\ChengnianApplication.class
+com\chengnian\model\SchoolBean.class
+com\chengnian\model\SchoolBeanRepository.class
+com\chengnian\model\StudentBeanRepository.class
+com\chengnian\controller\StudentController.class
+com\chengnian\model\StudentBean.class
